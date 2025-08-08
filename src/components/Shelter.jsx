@@ -9,7 +9,7 @@ const Shelter = () => {
   return (
     <div className='flex flex-col min-h-screen justify-center items-center'>
       
-      <div className="w-sm md:w-md rounded-2xl bg-amber-500 p-5">
+      <div className="w-sm md:w-md rounded-2xl bg-green-500 p-5">
         <button className='flex text-[14px] md:text-[17px] mb-3 items-center gap-x-1 cursor-pointer ' onClick={handleBackClick}>
          <i className="fa-solid fa-arrow-left"> </i> Back 
         </button>
