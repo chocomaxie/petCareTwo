@@ -10,8 +10,8 @@ const FirstPage = () => {
     navigate('/shelter'); 
   };
 
-  const handleAdopterClick = () => {
-    navigate('/adopter');
+  const handleHomeClick = () => {
+    navigate('/home');
   };
 
   return (
@@ -33,7 +33,7 @@ const FirstPage = () => {
           <h1 className='font-bold md:text-2xl'>Shelter</h1>
           <p className='text-[14px] md:text-[17px]'>Animal shelters and rescue organizations. Create an account to post pets looking for homes.</p>
         </div>
-        <div className="flex-1 border p-3 rounded-3xl hover:scale-105 transition-transform duration-300 cursor-pointer" onClick={handleAdopterClick}>
+        <div className="flex-1 border p-3 rounded-3xl hover:scale-105 transition-transform duration-300 cursor-pointer" onClick={handleHomeClick}>
           <img className="w-25 mx-auto md:w-30" src={adoption} alt="" />
           <h1 className='font-bold md:text-2xl'>Adopter</h1>
           <p className='text-[14px] md:text-[17px]'>Looking for a new companion? Browse available pets from local shelters. No account needed!</p>
