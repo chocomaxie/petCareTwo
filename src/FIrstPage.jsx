@@ -3,7 +3,7 @@ import adoption from '/assets/adoption.png';
 import shelter from '/assets/animal-shelter.png';
 import {useNavigate} from 'react-router-dom';
 
-const FirstPage = () => {
+const FIrstPage = () => {
 
   const navigate = useNavigate();
   const handleShelterClick = () => {
@@ -43,4 +43,4 @@ const FirstPage = () => {
   );
 };
 
-export default FirstPage;
+export default FIrstPage;
