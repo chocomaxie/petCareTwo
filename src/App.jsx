@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import FirstPage from './FirstPage';
+import FirstPage from './FIrstPage';
 import Shelter from './components/Shelter';
 
 function App() {
